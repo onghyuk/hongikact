@@ -374,6 +374,10 @@ cursor: pointer;
     
     }
 
+    .subhead{
+        line-height: 1.7em;
+    }
+
     .headtext{
         padding-left: 4%;
         text-align: left;
