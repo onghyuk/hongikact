@@ -1,0 +1,266 @@
+/*Sandoll Jebi2 Light
+
+font-family: sandoll-jebi2, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+
+
+Sandoll Jebi2 Medium
+
+font-family: sandoll-jebi2, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+
+
+Sandoll Jebi2 Bold
+
+font-family: sandoll-jebi2, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+
+AGChoiJeongHo Screen Regular
+
+font-family: agchoijeongho-screen, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+*/
+
+
+body{
+    margin: 0px;
+    
+}
+
+.wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.paper{
+    position: relative;
+    width: 100vw;
+    height: 78vh;
+    overflow: scroll;
+    
+
+    padding: 2%;
+
+    
+
+}
+
+h1{
+font-family: sandoll-jebi2, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+line-height: 1.2em;
+}
+
+h2{
+    font-family: sandoll-jebi2, sans-serif;
+
+    font-weight: 500;
+    
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.headtext{
+    padding-left: 30%;
+    text-align: left;
+    word-break: keep-all;
+    line-height: 2em;
+}
+
+.maintext{
+    position: relative;
+    display: block;
+   
+
+    word-break: keep-all;
+    padding-top: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+
+    font-family: agchoijeongho-screen, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+    line-height: 1.6em;
+}
+
+.text{
+    max-width: 80%;
+}
+
+.subhead{
+    font-family: sandoll-jebi2, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+font-size: 1.3em;
+margin-top: 8%;
+}
+
+.underline{
+   
+    text-decoration: solid underline black 0.4em;
+}
+
+.credit{
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.button{
+    position: relative;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 15% 15%;
+    padding-left: 32%;
+    padding-right: 32%;
+
+    padding-top: 2%;
+    
+    font-family: sandoll-jebi2, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+}
+
+.pleaseLeaveYourNameForUs{
+width: 50%;
+border: 1px solid black;
+text-align: center;
+border-radius: 35%;
+cursor: pointer;
+}
+
+.thankYouSoMuch{
+width: 50%;
+border: 1px solid black;
+text-align: center;
+border-radius: 35%;
+cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+
+
+    .paper{
+        position: relative;
+        width: 100vw;
+        height: 85vh;
+        overflow: scroll;
+        
+    
+        padding: 3px;
+    
+        
+    
+    }
+
+    .headtext{
+        padding-left: 4%;
+        text-align: left;
+        font-size: 0.8em;
+        padding-right: 10%;
+    }
+    
+    .maintext{
+        position: relative;
+        display: block;
+       
+    
+        word-break: keep-all;
+        padding-top: 1%;
+        padding-left: 4%;
+        padding-right: 3%;
+    
+        font-family: agchoijeongho-screen, sans-serif;
+    
+        font-weight: 400;
+    
+        font-style: normal;
+    
+        line-height: 1.8em;
+    }
+
+    .text{
+        max-width: 95%;
+    }
+
+
+    .button{
+        position: relative;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        padding-left: 4%;
+        padding-right: 4%;
+    
+        padding-top: 5%;
+        
+        font-family: sandoll-jebi2, sans-serif;
+    
+    font-weight: 700;
+    
+    font-style: normal;
+    border-top: 2px solid black;
+    }
+    
+    .pleaseLeaveYourNameForUs{
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 35%;
+    cursor: pointer;
+    }
+    
+    .thankYouSoMuch{
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 35%;
+    cursor: pointer;
+    }
+
+
+
+
+}
