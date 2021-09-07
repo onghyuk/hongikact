@@ -182,7 +182,7 @@ cursor: pointer;
     .paper{
         position: relative;
         width: 100vw;
-        height: 80vh;
+        height: 85vh;
         overflow: scroll;
         
     
@@ -231,7 +231,7 @@ cursor: pointer;
         padding-left: 28%;
         padding-right: 28%;
     
-        padding-top: 1%;
+        padding-top: 2%;
         padding-bottom: 2%;
         
         font-family: sandoll-jebi2, sans-serif;
