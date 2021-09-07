@@ -421,13 +421,13 @@ cursor: pointer;
     .button{
         position: relative;
         width: 100vw;
-        height: 5vh;
+        height: 8vh;
         display: grid;
         grid-template-columns: 40% 40%;
         padding-left: 4%;
         padding-right: 4%;
     
-        padding-top: 3%;
+        padding-top: 2%;
         
         font-family: sandoll-jebi2, sans-serif;
     
