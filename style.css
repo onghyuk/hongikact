@@ -182,7 +182,7 @@ cursor: pointer;
     .paper{
         position: relative;
         width: 100vw;
-        height: 85vh;
+        height: 80vh;
         overflow: scroll;
         
     
@@ -364,9 +364,9 @@ cursor: pointer;
     .wrapper{
         position: relative;
         width: 100vw;
-        height: 90vh;
+        height: 93vh;
     
-        max-height: 90vh;
+        max-height: 93vh;
         max-width: 100vw;
         overflow: hidden;
     }
