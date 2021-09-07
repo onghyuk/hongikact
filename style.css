@@ -421,7 +421,7 @@ cursor: pointer;
     .button{
         position: relative;
         width: 100vw;
-        height: 7vh;
+        height: 5vh;
         display: grid;
         grid-template-columns: 40% 40%;
         padding-left: 4%;
