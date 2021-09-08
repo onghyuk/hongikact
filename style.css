@@ -364,9 +364,9 @@ cursor: pointer;
     .wrapper{
         position: relative;
         width: 100vw;
-        height: 100%;
-        
-       
+        height: 93vh;
+    
+        max-height: 93vh;
         max-width: 100vw;
         overflow: hidden;
     }
@@ -374,7 +374,7 @@ cursor: pointer;
     .paper{
         position: relative;
         width: 100vw;
-        height: 87vh;
+        height: 76vh;
         overflow: scroll;
         
     
@@ -423,13 +423,13 @@ cursor: pointer;
     .button{
         position: relative;
         width: 100vw;
-        height: 15%;
+        height: 15vh;
         display: grid;
         grid-template-columns: 40% 40%;
         padding-left: 4%;
         padding-right: 4%;
     
-        padding-top: 3%;
+        padding-top: 2%;
         
         font-family: sandoll-jebi2, sans-serif;
     
