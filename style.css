@@ -374,7 +374,7 @@ cursor: pointer;
     .paper{
         position: relative;
         width: 100vw;
-        height: 85vh;
+        height: 87vh;
         overflow: scroll;
         
     
@@ -423,7 +423,7 @@ cursor: pointer;
     .button{
         position: relative;
         width: 100vw;
-        height: 15vh;
+        height: 15%;
         display: grid;
         grid-template-columns: 40% 40%;
         padding-left: 4%;
